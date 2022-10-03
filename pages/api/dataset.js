@@ -59,7 +59,7 @@ const handler = async (_, res) => {
       gData[index].properties.contributions / totalContributions;
   }
 
-  res.status(200).json({ gData });
+  res.status(200).json(gData);
 };
 
 export default handler;
