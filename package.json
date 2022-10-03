@@ -1,0 +1,28 @@
+{
+  "name": "hacktoberfest-map",
+  "version": "1.0.0",
+  "description": "## From where are you contributing?",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18reg/hacktoberfest-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18reg/hacktoberfest-map/issues"
+  },
+  "homepage": "https://github.com/18reg/hacktoberfest-map#readme",
+  "dependencies": {
+    "globe.gl": "^2.26.6",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-globe.gl": "^2.22.4"
+  }
+}
