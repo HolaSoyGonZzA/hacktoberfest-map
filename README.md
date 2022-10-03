@@ -11,7 +11,7 @@
 2. Clone the forked repository:
 
 ```bash
-git@github.com:YOUR_USERNAME/svgl.git
+git@github.com:YOUR_USERNAME/hacktoberfest-map.git
 ```
 
 3. Add the **[username].json** file here: [`/data`](https://github.com/18reg/hacktoberfest-map/tree/main/data).
