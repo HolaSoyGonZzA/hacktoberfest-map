@@ -6,7 +6,7 @@ export async function getServerSideProps() {
   const response = await fetch(
     "https://hacktoberfest-map.vercel.app/api/dataset"
   );
-  const { data: gData } = await response.json();
+  const gData = await response.json();
   return {
     props: { gData },
   };
