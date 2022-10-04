@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Header from "./components/Header"
 
 const Globe = dynamic(import("react-globe.gl"), { ssr: false });
 
@@ -14,6 +15,8 @@ export async function getServerSideProps() {
 
 export default function Index({ gData }) {
   return (
+    <>
+    <Header />
     <Globe
       globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
       pointsData={gData}
@@ -24,5 +27,6 @@ export default function Index({ gData }) {
         Contributions: <i>${properties.contributions}</i>
       `}
     />
+    </>
   );
 }
