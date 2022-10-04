@@ -19,11 +19,18 @@
   },
   "homepage": "https://github.com/18reg/hacktoberfest-map#readme",
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
     "fs-extra": "^10.1.0",
     "globe.gl": "^2.26.6",
     "next": "^12.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-globe.gl": "^2.22.4"
+    "react-globe.gl": "^2.22.4",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.1"
   }
 }
