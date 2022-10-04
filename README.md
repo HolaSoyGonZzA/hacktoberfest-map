@@ -3,11 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## From where are you contributing?
-
-## 🐱‍🏍 How it works?
-
-## 🤔 How can I add my country?
+## How can I add my country? 🤔
 
 1. [Fork the repository](https://github.com/18reg/hacktoberfest-map/fork).
 
