@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    overflow: hidden;
+  margin: 0;
+  overflow: hidden;
 }
-a{
-    color: #ffffff;
+a {
+  color: #ffffff;
 }

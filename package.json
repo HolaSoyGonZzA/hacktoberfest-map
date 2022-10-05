@@ -4,8 +4,11 @@
   "description": "From where are you contributing?",
   "main": "index.js",
   "scripts": {
+    "lint": "next lint",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,8 @@
     "react-dom": "^18.2.0",
     "react-globe.gl": "^2.22.4",
     "react-router-dom": "^6.4.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }

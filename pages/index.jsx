@@ -1,15 +1,15 @@
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic'
 
-const Globe = dynamic(import("react-globe.gl"), { ssr: false });
+const Globe = dynamic(import('react-globe.gl'), { ssr: false })
 
 export async function getServerSideProps() {
   const response = await fetch(
-    "https://hacktoberfest-map.vercel.app/api/dataset"
-  );
-  const gData = await response.json();
+    'https://hacktoberfest-map.vercel.app/api/dataset',
+  )
+  const gData = await response.json()
   return {
     props: { gData },
-  };
+  }
 }
 
 export default function Index({ gData }) {
@@ -26,5 +26,5 @@ export default function Index({ gData }) {
       `}
       />
     </>
-  );
+  )
 }
